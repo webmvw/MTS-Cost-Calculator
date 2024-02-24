@@ -7,5 +7,6 @@ namespace Mts;
 class Frontend{
 	function __construct(){
 		new Frontend\Display();
+		new Frontend\Form();
 	}
 }
