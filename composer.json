@@ -1,0 +1,14 @@
+{
+    "name": "webmk/mts-cost-calculator",
+    "description": "A tutorial plugin for mts",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+    	"psr-4":{
+    		"Mts\\":"includes/"
+    	},
+    	"files": []
+    }
+}
